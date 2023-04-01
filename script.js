@@ -3,7 +3,6 @@ const hourEl = document.getElementById("hour")
 const minuteEl = document.getElementById("minutes")
 const secondEl = document.getElementById("seconds")
 const ampmEl = document.getElementById("ampm")
-const text = document.getElementByClassName("text")
 
 function updateClock() {
   let h = new Date().getHours()
@@ -15,7 +14,7 @@ function updateClock() {
     h = h - 12
     ampm = "PM"
     ampmEl.style.background = "red"
-    text.style.background = "red"
+    document.getElementByClassName("text").style.background = "red"
     body.style.backgroundImage = "url('./img-night.jpg')"
   }
 
