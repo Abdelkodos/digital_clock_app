@@ -34,7 +34,7 @@ h2 {
   height: 80px;
   background: blue;
   opacity: 0.8;
-  color: #000;
+  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -45,9 +45,10 @@ h2 {
 .clock .text {
   height: 30px;
   font-size: 10px;
+  color: white;
   text-transform: uppercase;
   letter-spacing: 2px;
-  background: yellow;
+  background: orange;
   opacity: 0.8;
 }
 
